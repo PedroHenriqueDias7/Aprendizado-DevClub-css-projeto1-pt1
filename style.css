@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    margin-top: 25px;
+    margin-left: 42px;
+    position: absolute;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #17233D;
+    margin-right: 42px;
+    text-decoration: none;
+}
+
+.link-header:hover {
+    opacity: .7;
+}
+
+.button-header {
+    background: #6FBF44;
+    color: #FFFFFF;
+    width: 100px;
+    height: 45px;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.button-header:hover {
+    opacity: .7;
+}
+
+.image-main {
+    width: 595px;
+    height: 500px;
+    margin-top: 150px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 80px;
+}
+
+h1 {
+    margin-top: 342;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    margin-bottom: 50px;
+}
+
+.image-section {
+    width: 493px;
+    height: 99px;
+    margin-bottom: 60px;
+}
+
+.link-section {
+    width: 112px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #6FBF44;
+    text-decoration: none;
+}
+/*Esse link também poderia ser um botão.
+Nas configurações do botão seria: background: transparent e border: none;*/
+
+
+
